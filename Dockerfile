@@ -16,6 +16,6 @@ COPY . /app
 # Expose port 3000 for the FastAPI web API
 EXPOSE 3000
 
-# Start the FastAPI app using uvicorn
+# Start the FastAPI app using uvicorn.
 CMD ["python", "app.py"]
 

@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: LearnCI/.github/workflows/python-app.yml@main
+    uses: SnehaSundrani/LearnCI/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write
